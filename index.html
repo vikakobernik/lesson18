@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GREENSHOP - Home</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="scss/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+    <script src="scripts/main.js" defer></script>
+    
+</head>
+<body>
+    <div class="background-test"></div>
+
+    <div class="container">
+        <header>
+            <div class="logo-container">
+                <img src="images/leaf.png" alt="Leaf Logo" class="logo-image">
+                <h1 class="logo">GREENSHOP</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li class="dropdown">
+                        <a href="#">Plant Care</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Drainage</a></li>
+                            <li><a href="#">Fungicides</a></li>
+                            <li><a href="#">Fertilizer</a></li>
+                            <li class="dropdown-submenu">
+                                <a href="#">Priming</a>
+                                <ul class="submenu">
+                                    <li><a href="#">Universal</a></li>
+                                    <li><a href="#">For Ficus</a></li>
+                                    <li><a href="#">For Cacti</a></li>
+                                    <li><a href="#">For Citrus</a></li>
+                                    <li><a href="#">For those in bloom</a></li>
+                                    <li><a href="#">For Orchids</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="login-button">
+                Login <i class="fas fa-sign-in-alt"></i>
+            </button>
+            <div class="header-icons">
+                <div class="icon icon-search"></div>
+                <div class="icon icon-cart"></div>
+                <div class="icon icon-heart"></div>
+            </div>
+        </header>
+        
+        <!-- Intro Section -->
+        <section class="intro">
+            <div class="intro-content">
+                <div class="intro-text">
+                    <h2 class="welcome">WELCOME TO GREENSHOP</h2>
+                    <h3 class="better-planet">LET'S MAKE A <br>BETTER <span class="green-planet">PLANET</span></h3>
+                    <p class="description">We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create a unique Urban Jungle. Order your favourite plants!</p>
+                    <button class="shop-button">Shop now</button>
+                </div>
+                <img src="images/plant.png" alt="Plant Image" class="plant-image">
+            </div>
+        </section>
+        
+    <section class="container">
+        <div class="product-page">
+            <div class="category-sidebar">
+                <h2>Categories</h2>
+                <ul class="category-list">
+                    <li>House Plants (33)</li>
+                    <li>Potter Plants (23)</li>
+                    <li>Seeds (53)</li>
+                    <li>Small Plants (29)</li>
+                    <li>Big Plants (12)</li>
+                    <li>Succulents (17)</li>
+                    <li>Terrariums (19)</li>
+                    <li>Gardening (13)</li>
+                    <li>Accessories (38)</li>
+                </ul>
+    
+                <div class="price-range">
+                    <h3>Price Range</h3>
+                    <input type="range" min="39" max="339" value="100" class="slider" id="priceRange">
+                    <p>Price: $39 - $339</p>
+                    <button class="filter-btn">Filter</button>
+                </div>
+    
+                <div class="size-filter">
+                    <h3>Size</h3>
+                    <ul class="size-list">
+                        <li>Small (119)</li>
+                        <li>Medium (86)</li>
+                        <li>Large (78)</li>
+                    </ul>
+                </div>
+    
+                <div class="sale-banner">
+                    <h3>Super Sale</h3>
+                    <p>UP TO 75% OFF</p>
+                </div>
+    </div>
+            <main class="main-content">
+                <div class="top-nav">
+                    <button class="tab">All Plants</button>
+                    <button class="tab">New Arrivals</button>
+                    <button class="tab">Sale</button>
+                    <select class="sort-by">
+                        <option>Default sorting</option>
+                        <option>Price: low to high</option>
+                        <option>Price: high to low</option>
+                    </select>
+                    <div class="product-icons">
+                        <div class="icon icon-search"></div>
+                        <div class="icon icon-cart"></div>
+                        <div class="icon icon-heart"></div>
+                    </div>
+                </div>
+                <div class="product-grid">
+                    <div class="product-item">
+                        <img src="images/plant1.png" alt="plant1">
+                        <p>Barberton Daisy</p>
+                        <p>$119.00</p>
+                    </div>
+                    <div class="product-item">
+                        <img src="images/plant2.png" alt="plant2">
+                        <p>Angel Wing Begonia</p>
+                        <p>$169.00</p>
+                    </div>
+                    <div class="product-item sale">
+                        <img src="images/plant3.png" alt="plant3">
+                        <p>African Violet</p>
+                        <p><span class="discount">15% OFF</span> $199.00 <span class="original-price">$229.00</span></p>
+                    </div>
+                    <div class="product-item">
+                        <img src="images/plant6.png" alt="plant5">
+                        <p>Beach Spider Lily</p>
+                        <p>$129.00</p>
+                    </div>
+                    <div class="product-item">
+                        <img src="images/plant7.png" alt="plant5">
+                        <p>Blushing Bromeliad</p>
+                        <p>$139.00</p>
+                    </div>
+                    <div class="product-item">
+                        <img src="images/plant8.png" alt="plant5">
+                        <p>Aluminium Plant</p>
+                        <p>$179.00</p>
+                    </div>
+                </div>
+                
+                <div class="pagination">
+                    <a href="#" class="page-number">1</a>
+                    <a href="#" class="page-number">2</a>
+                    <a href="#" class="page-number">3</a>
+                    <a href="#" class="page-number">4</a>
+                    <span class="next">></span>
+                </div>
+                
+            </main>
+        </div>
+    </section>
+        <section class="promotions-section">
+            <div class="promotion-item">
+                <img src="images/plant9.png" alt="Cactus Plant">
+                <h2>SUMMER CACTUS & SUCCULENTS</h2>
+                <p>We are an online plant shop offering a wide range of cheap and trendy plants</p>
+                <a href="#" class="btn">Find More</a>
+            </div>
+            <div class="promotion-item">
+                <img src="images/plant10.png" alt="Trendy Plant">
+                <h2>STYLING TRENDS & MUCH MORE</h2>
+                <p>We are an online plant shop offering a wide range of cheap and trendy plants</p>
+                <a href="#" class="btn">Find More</a>
+            </div>
+        </section>
+    
+        <section class="blog-posts-section">
+            <h2>Our Blog Posts</h2>
+            <p>We are an online plant shop offering a wide range of cheap and trendy plants.</p>
+            <div class="blog-posts-container">
+                <div class="blog-post">
+                    <img src="images/plant6.png" alt="Cactus Care Tips">
+                    <p>September 12 | Read in 6 minutes</p>
+                    <h3>Cactus & Succulent Care Tips</h3>
+                    <p>Cacti are succulents are easy care plants for any home.</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="blog-post">
+                    <img src="images/plant2.png" alt="Top 10 Succulents">
+                    <p>September 13 | Read in 2 minutes</p>
+                    <h3>Top 10 Succulents for Your Home</h3>
+                    <p>Best in hanging baskets. Prefers medium to high light.</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="blog-post">
+                    <img src="images/plant7.png" alt="Succulent Care">
+                    <p>September 15 | Read in 3 minutes</p>
+                    <h3>Cacti & Succulent Care Tips</h3>
+                    <p>Cacti and succulents thrive in containers and become most...</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="blog-post">
+                    <img src="images/plant8.png" alt="Best Houseplants">
+                    <p>September 15 | Read in 2 minutes</p>
+                    <h3>Best Houseplants Room By Room</h3>
+                    <p>The benefits of houseplants are endless. In addition to...</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </section>
+        <section class="three-column-section">
+            <div class="column">
+                <div class="column-image"></div>
+                <h3>Garden Care</h3>
+                <p>We are an omline plant shop offering a wide range of cheap and trendy plants.</p>
+            </div>
+            <div class="column">
+                <div class="column-image"></div>
+                <h3>Plant Rennovation</h3>
+                <p>We are an online plant shop offering a wide range of cheap and trendy plants.</p>
+            </div>
+            <div class="column">
+                <div class="column-image"></div>
+                <h3>Watering Graden</h3>
+                <p>We are an online plant shop offering a wide range of cheap and trendy plants.</p>
+            </div>
+            <div class="email-field">
+                <h3 class="newsletter-title">Would you like to join newsletters?</h3>
+                <input type="email" placeholder="Enter your email" class="email-input">
+                <p class="newsletter-text">We offer a wide range of houseplants and accessories shipped directly from our (green)house to yours!</p>
+            </div>
+        </section>
+        </section>
+
+        <section class="gradient-section">
+            <div class="gradient-content">
+                <div class="column">
+                    <i class="fas fa-leaf"></i> <span class="green-text">GREENSHOP</span>
+                </div>
+                <div class="column">
+                    <i class="fas fa-map-marker-alt"></i> 70 West Buckingham Ave. Farmingdale
+                </div>
+                <div class="column">
+                    <i class="fas fa-envelope"></i> contact@greenshop.com
+                </div>
+            </div>
+        </section>
+        
+
+            <section class="team-slider">
+                <div class="slider">
+                    <div class="slide-content">
+                        <img src="images/photo.jpeg" alt="Фото 1">
+                        <div class="text-block">
+                            <h3>Команда</h3>
+                            <p class="quote">Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.</p>
+                            <p class="author">Олександр Олександровський</p>
+                            <p class="position">Керуючий партнер</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+    <label class="custom-checkbox">
+        <input type="checkbox" id="checkbox1">
+        <span class="checkbox-checkmark"></span>
+    </label>
+    <label class="custom-checkbox">
+        <input type="checkbox" id="checkbox2">
+        <span class="checkbox-checkmark"></span>
+    </label>
+</body>
+</html>

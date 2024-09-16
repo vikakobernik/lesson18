@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preloader</title>
+    <link rel="stylesheet" href="preloader.css">
+</head>
+<body class="preloader-active">
+    <div class="preloader">
+        <div class="spinner"></div>
+    </div>
+
+    <script>
+        window.addEventListener('load', () => {
+            document.body.classList.remove('preloader-active');
+            document.body.classList.add('loaded');
+        });
+    </script>
+</body>
+</html>
